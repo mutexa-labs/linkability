@@ -1,0 +1,821 @@
+{
+  "schema": 1,
+  "specVersion": "1",
+  "description": "Linkability scorer vectors: input → score, level and factor ids. Expected values were produced by the Mutexa app's scorer (an independent copy of the same rules) and match SPEC.md.",
+  "cases": [
+    {
+      "id": "link-0001",
+      "name": "one account, everything visible",
+      "input": {
+        "slices": [
+          100000
+        ],
+        "leverages": [
+          10
+        ],
+        "jitter": "off",
+        "freshAccounts": false,
+        "privateFunding": false,
+        "alertThreshold": 50000
+      },
+      "expected": {
+        "score": 100,
+        "level": "High",
+        "factorIds": [
+          "slices.single",
+          "timing.none",
+          "accounts.reused",
+          "funding.shared",
+          "alert.above"
+        ],
+        "points": [
+          40,
+          20,
+          12,
+          25,
+          6
+        ]
+      }
+    },
+    {
+      "id": "link-0002",
+      "name": "one account, under threshold, private",
+      "input": {
+        "slices": [
+          20000
+        ],
+        "leverages": [
+          10
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 50000
+      },
+      "expected": {
+        "score": 42,
+        "level": "Medium",
+        "factorIds": [
+          "slices.single",
+          "timing.heavy"
+        ],
+        "points": [
+          40,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0003",
+      "name": "two identical slices",
+      "input": {
+        "slices": [
+          50000,
+          50000
+        ],
+        "leverages": [
+          10,
+          10
+        ],
+        "jitter": "off",
+        "freshAccounts": false,
+        "privateFunding": false,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 98,
+        "level": "High",
+        "factorIds": [
+          "slices.few",
+          "size.identical",
+          "leverage.same",
+          "timing.none",
+          "accounts.reused",
+          "funding.shared"
+        ],
+        "points": [
+          18,
+          15,
+          8,
+          20,
+          12,
+          25
+        ]
+      }
+    },
+    {
+      "id": "link-0004",
+      "name": "three similar slices, light jitter",
+      "input": {
+        "slices": [
+          30000,
+          32000,
+          35000
+        ],
+        "leverages": [
+          9,
+          10,
+          11
+        ],
+        "jitter": "light",
+        "freshAccounts": true,
+        "privateFunding": false,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 58,
+        "level": "Medium",
+        "factorIds": [
+          "slices.few",
+          "size.similar",
+          "leverage.varied",
+          "timing.light",
+          "funding.shared"
+        ],
+        "points": [
+          18,
+          7,
+          0,
+          8,
+          25
+        ]
+      }
+    },
+    {
+      "id": "link-0005",
+      "name": "four slices, size cv just under 0.05",
+      "input": {
+        "slices": [
+          10000,
+          10000,
+          10000,
+          10800
+        ],
+        "leverages": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 25,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.identical",
+          "leverage.varied",
+          "timing.heavy"
+        ],
+        "points": [
+          8,
+          15,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0006",
+      "name": "four slices, size cv just over 0.05",
+      "input": {
+        "slices": [
+          10000,
+          10000,
+          10000,
+          11200
+        ],
+        "leverages": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 17,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.similar",
+          "leverage.varied",
+          "timing.heavy"
+        ],
+        "points": [
+          8,
+          7,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0007",
+      "name": "five slices, size cv just under 0.15",
+      "input": {
+        "slices": [
+          10000,
+          10000,
+          10000,
+          10000,
+          13500
+        ],
+        "leverages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 17,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.similar",
+          "leverage.varied",
+          "timing.heavy"
+        ],
+        "points": [
+          8,
+          7,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0008",
+      "name": "five slices, size cv over 0.15",
+      "input": {
+        "slices": [
+          5000,
+          8000,
+          10000,
+          13000,
+          16000
+        ],
+        "leverages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 10,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.varied",
+          "timing.heavy"
+        ],
+        "points": [
+          8,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0009",
+      "name": "six slices, same leverage",
+      "input": {
+        "slices": [
+          5000,
+          8000,
+          10000,
+          13000,
+          16000,
+          7000
+        ],
+        "leverages": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "jitter": "light",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 24,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.same",
+          "timing.light"
+        ],
+        "points": [
+          8,
+          0,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "link-0010",
+      "name": "six slices, leverage cv just under 0.03",
+      "input": {
+        "slices": [
+          5000,
+          8000,
+          10000,
+          13000,
+          16000,
+          7000
+        ],
+        "leverages": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10.8
+        ],
+        "jitter": "light",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 24,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.same",
+          "timing.light"
+        ],
+        "points": [
+          8,
+          0,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "link-0011",
+      "name": "seven slices, best case",
+      "input": {
+        "slices": [
+          5000,
+          8000,
+          10000,
+          13000,
+          16000,
+          7000,
+          11000
+        ],
+        "leverages": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 4,
+        "level": "Low",
+        "factorIds": [
+          "slices.many",
+          "size.varied",
+          "leverage.varied",
+          "timing.heavy"
+        ],
+        "points": [
+          2,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0012",
+      "name": "twelve slices, reused accounts",
+      "input": {
+        "slices": [
+          4000,
+          4900,
+          5800,
+          6700,
+          7600,
+          8500,
+          9400,
+          10300,
+          11200,
+          12100,
+          13000,
+          13900
+        ],
+        "leverages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "jitter": "heavy",
+        "freshAccounts": false,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 16,
+        "level": "Low",
+        "factorIds": [
+          "slices.many",
+          "size.varied",
+          "leverage.varied",
+          "timing.heavy",
+          "accounts.reused"
+        ],
+        "points": [
+          2,
+          0,
+          0,
+          2,
+          12
+        ]
+      }
+    },
+    {
+      "id": "link-0013",
+      "name": "one slice above threshold",
+      "input": {
+        "slices": [
+          20000,
+          30000,
+          60000,
+          25000
+        ],
+        "leverages": [
+          5,
+          8,
+          11,
+          14
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 50000
+      },
+      "expected": {
+        "score": 16,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.varied",
+          "timing.heavy",
+          "alert.above"
+        ],
+        "points": [
+          8,
+          0,
+          0,
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "id": "link-0014",
+      "name": "two slices above threshold",
+      "input": {
+        "slices": [
+          20000,
+          70000,
+          60000,
+          25000
+        ],
+        "leverages": [
+          5,
+          8,
+          11,
+          14
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 50000
+      },
+      "expected": {
+        "score": 22,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.varied",
+          "timing.heavy",
+          "alert.above"
+        ],
+        "points": [
+          8,
+          0,
+          0,
+          2,
+          12
+        ]
+      }
+    },
+    {
+      "id": "link-0015",
+      "name": "five slices above threshold, capped at 18",
+      "input": {
+        "slices": [
+          90000,
+          70000,
+          60000,
+          85000,
+          99000
+        ],
+        "leverages": [
+          5,
+          8,
+          11,
+          14,
+          17
+        ],
+        "jitter": "light",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 50000
+      },
+      "expected": {
+        "score": 34,
+        "level": "Medium",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.varied",
+          "timing.light",
+          "alert.above"
+        ],
+        "points": [
+          8,
+          0,
+          0,
+          8,
+          18
+        ]
+      }
+    },
+    {
+      "id": "link-0016",
+      "name": "slice equal to threshold is not above",
+      "input": {
+        "slices": [
+          50000,
+          40000,
+          30000,
+          20000
+        ],
+        "leverages": [
+          5,
+          8,
+          11,
+          14
+        ],
+        "jitter": "heavy",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 50000
+      },
+      "expected": {
+        "score": 10,
+        "level": "Low",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.varied",
+          "timing.heavy"
+        ],
+        "points": [
+          8,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "link-0017",
+      "name": "worst case clamps at 100",
+      "input": {
+        "slices": [
+          500000,
+          500000
+        ],
+        "leverages": [
+          20,
+          20
+        ],
+        "jitter": "off",
+        "freshAccounts": false,
+        "privateFunding": false,
+        "alertThreshold": 1000
+      },
+      "expected": {
+        "score": 100,
+        "level": "High",
+        "factorIds": [
+          "slices.few",
+          "size.identical",
+          "leverage.same",
+          "timing.none",
+          "accounts.reused",
+          "funding.shared",
+          "alert.above"
+        ],
+        "points": [
+          18,
+          15,
+          8,
+          20,
+          12,
+          25,
+          12
+        ]
+      }
+    },
+    {
+      "id": "link-0018",
+      "name": "light jitter, shared funding",
+      "input": {
+        "slices": [
+          5000,
+          8000,
+          10000,
+          13000,
+          16000
+        ],
+        "leverages": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "jitter": "light",
+        "freshAccounts": true,
+        "privateFunding": false,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 41,
+        "level": "Medium",
+        "factorIds": [
+          "slices.some",
+          "size.varied",
+          "leverage.varied",
+          "timing.light",
+          "funding.shared"
+        ],
+        "points": [
+          8,
+          0,
+          0,
+          8,
+          25
+        ]
+      }
+    },
+    {
+      "id": "link-0019",
+      "name": "boundary: score 30 is Medium",
+      "input": {
+        "slices": [
+          5000,
+          8000,
+          10000,
+          13000,
+          16000,
+          7000,
+          11000
+        ],
+        "leverages": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "jitter": "off",
+        "freshAccounts": true,
+        "privateFunding": true,
+        "alertThreshold": 100000
+      },
+      "expected": {
+        "score": 30,
+        "level": "Medium",
+        "factorIds": [
+          "slices.many",
+          "size.varied",
+          "leverage.same",
+          "timing.none"
+        ],
+        "points": [
+          2,
+          0,
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "id": "link-0020",
+      "name": "boundary: score 60 is High",
+      "input": {
+        "slices": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          12500
+        ],
+        "leverages": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        "jitter": "light",
+        "freshAccounts": false,
+        "privateFunding": false,
+        "alertThreshold": 12000
+      },
+      "expected": {
+        "score": 60,
+        "level": "High",
+        "factorIds": [
+          "slices.many",
+          "size.similar",
+          "leverage.varied",
+          "timing.light",
+          "accounts.reused",
+          "funding.shared",
+          "alert.above"
+        ],
+        "points": [
+          2,
+          7,
+          0,
+          8,
+          12,
+          25,
+          6
+        ]
+      }
+    }
+  ]
+}
