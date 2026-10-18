@@ -1,0 +1,4432 @@
+{
+  "recordedAt": "2026-10-18T22:29:00.880Z",
+  "now": 1792362540880,
+  "lookbackDays": 180,
+  "coin": "BTC",
+  "accounts": [
+    "0xffffffffffffffffffffffffffffffffffff0001",
+    "0xffffffffffffffffffffffffffffffffffff0002",
+    "0xffffffffffffffffffffffffffffffffffff0003"
+  ],
+  "note": "Public Hyperliquid info API responses, trimmed to the fields the verifier reads. Every address and hash is replaced by a fake one.",
+  "responses": {
+    "clearinghouseState:0xffffffffffffffffffffffffffffffffffff0001": {
+      "assetPositions": [
+        {
+          "position": {
+            "coin": "BTC",
+            "szi": "-0.0007",
+            "positionValue": "57.07058",
+            "marginUsed": "1.375131",
+            "leverage": {
+              "type": "isolated",
+              "value": 40,
+              "rawUsd": "58.445711"
+            }
+          }
+        }
+      ]
+    },
+    "userFills:0xffffffffffffffffffffffffffffffffffff0001": [
+      {
+        "coin": "BTC",
+        "time": 1792362538098,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.0007",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792362480952,
+        "dir": "Close Long",
+        "startPosition": "0.0006",
+        "sz": "0.0006",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792358567403,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.0006",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792315985007,
+        "dir": "Close Short",
+        "startPosition": "-0.00069",
+        "sz": "0.00069",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792295364737,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00069",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792295122047,
+        "dir": "Close Short",
+        "startPosition": "-0.00085",
+        "sz": "0.00085",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792288082784,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00085",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792287685797,
+        "dir": "Close Short",
+        "startPosition": "-0.00099",
+        "sz": "0.00099",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792203285761,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00099",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792170416783,
+        "dir": "Close Short",
+        "startPosition": "-0.00093",
+        "sz": "0.00093",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792167517667,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00093",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792127119450,
+        "dir": "Close Short",
+        "startPosition": "-0.00108",
+        "sz": "0.00108",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792087467608,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00108",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792078874880,
+        "dir": "Close Short",
+        "startPosition": "-0.00243",
+        "sz": "0.00243",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792075874258,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00243",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792075720015,
+        "dir": "Close Short",
+        "startPosition": "-0.00421",
+        "sz": "0.00421",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792032908392,
+        "dir": "Open Short",
+        "startPosition": "-0.00356",
+        "sz": "0.00065",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792032726445,
+        "dir": "Open Short",
+        "startPosition": "-0.00309",
+        "sz": "0.00047",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792032192695,
+        "dir": "Open Short",
+        "startPosition": "-0.00213",
+        "sz": "0.00096",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792031109807,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00213",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792031091285,
+        "dir": "Close Short",
+        "startPosition": "-0.00312",
+        "sz": "0.00312",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792030816209,
+        "dir": "Open Short",
+        "startPosition": "-0.00293",
+        "sz": "0.00019",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792030374618,
+        "dir": "Open Short",
+        "startPosition": "-0.00146",
+        "sz": "0.00147",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792029149373,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00146",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791981677990,
+        "dir": "Close Long",
+        "startPosition": "0.00034",
+        "sz": "0.00034",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791869567806,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00034",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791869558757,
+        "dir": "Close Long",
+        "startPosition": "0.00032",
+        "sz": "0.00032",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791864316889,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00032",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791864223456,
+        "dir": "Close Long",
+        "startPosition": "0.00027",
+        "sz": "0.00027",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791859200198,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00027",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791855616759,
+        "dir": "Close Short",
+        "startPosition": "-0.00058",
+        "sz": "0.00058",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791851421178,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00058",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791850008316,
+        "dir": "Close Long",
+        "startPosition": "0.00127",
+        "sz": "0.00127",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791825576554,
+        "dir": "Open Long",
+        "startPosition": "0.00111",
+        "sz": "0.00016",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791825576554,
+        "dir": "Open Long",
+        "startPosition": "0.00048",
+        "sz": "0.00063",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791825576554,
+        "dir": "Open Long",
+        "startPosition": "0.00035",
+        "sz": "0.00013",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791825576554,
+        "dir": "Open Long",
+        "startPosition": "0.0001",
+        "sz": "0.00025",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791825576554,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.0001",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791808602127,
+        "dir": "Close Long",
+        "startPosition": "0.00267",
+        "sz": "0.00267",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791736183735,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00267",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791720836748,
+        "dir": "Close Short",
+        "startPosition": "-0.00256",
+        "sz": "0.00256",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1791720282514,
+        "dir": "Close Short",
+        "startPosition": "-1.1",
+        "sz": "1.1",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1791720282514,
+        "dir": "Close Short",
+        "startPosition": "-3.9",
+        "sz": "2.8",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1791694954688,
+        "dir": "Open Short",
+        "startPosition": "-2.1",
+        "sz": "1.8",
+        "side": "A"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1791694954688,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "2.1",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791693668239,
+        "dir": "Open Short",
+        "startPosition": "-0.00208",
+        "sz": "0.00048",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791691720089,
+        "dir": "Open Short",
+        "startPosition": "-0.00064",
+        "sz": "0.00144",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791590587009,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00064",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791590575347,
+        "dir": "Close Long",
+        "startPosition": "0.00096",
+        "sz": "0.00096",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791549194161,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00096",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791546035839,
+        "dir": "Close Short",
+        "startPosition": "-0.00153",
+        "sz": "0.00153",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791543164341,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00153",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791540570453,
+        "dir": "Close Long",
+        "startPosition": "0.00123",
+        "sz": "0.00123",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791510234861,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00123",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791510223075,
+        "dir": "Close Short",
+        "startPosition": "-0.00146",
+        "sz": "0.00146",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791503291729,
+        "dir": "Open Short",
+        "startPosition": "-0.00101",
+        "sz": "0.00045",
+        "side": "A"
+      },
+      {
+        "coin": "ETH",
+        "time": 1791490170060,
+        "dir": "Close Short",
+        "startPosition": "-0.0198",
+        "sz": "0.0198",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791488251903,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00101",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791487759156,
+        "dir": "Close Short",
+        "startPosition": "-0.00206",
+        "sz": "0.00206",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791480782781,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00206",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791480771736,
+        "dir": "Close Long",
+        "startPosition": "0.00197",
+        "sz": "0.00197",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791480725964,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00197",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791478827847,
+        "dir": "Close Short",
+        "startPosition": "-0.00111",
+        "sz": "0.00111",
+        "side": "B"
+      },
+      {
+        "coin": "ETH",
+        "time": 1791478502839,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.0198",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1791433195050,
+        "dir": "Close Short",
+        "startPosition": "-0.01",
+        "sz": "0.01",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791384805173,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00111",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791380795686,
+        "dir": "Close Long",
+        "startPosition": "0.00238",
+        "sz": "0.00238",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791342178662,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00238",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791342161652,
+        "dir": "Close Short",
+        "startPosition": "-0.00262",
+        "sz": "0.00262",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1791341118519,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.01",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791341083212,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00262",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791340732195,
+        "dir": "Close Long",
+        "startPosition": "0.00078",
+        "sz": "0.00078",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791340732195,
+        "dir": "Close Long",
+        "startPosition": "0.00095",
+        "sz": "0.00017",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791340569790,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00095",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791338287622,
+        "dir": "Close Long",
+        "startPosition": "0.00131",
+        "sz": "0.00131",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791303108539,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00131",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791298865648,
+        "dir": "Close Long",
+        "startPosition": "0.00091",
+        "sz": "0.00091",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791254942648,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00091",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791254876584,
+        "dir": "Close Long",
+        "startPosition": "0.00101",
+        "sz": "0.00101",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791214193398,
+        "dir": "Open Long",
+        "startPosition": "0.00017",
+        "sz": "0.00084",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791214193398,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00017",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791177853498,
+        "dir": "Close Short",
+        "startPosition": "-0.00069",
+        "sz": "0.00069",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791155562018,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00069",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791155535386,
+        "dir": "Close Short",
+        "startPosition": "-0.00117",
+        "sz": "0.00117",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791149514152,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00117",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791149495933,
+        "dir": "Close Long",
+        "startPosition": "0.00098",
+        "sz": "0.00098",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791130472715,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00098",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791107252731,
+        "dir": "Close Short",
+        "startPosition": "-0.00093",
+        "sz": "0.00093",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791085651831,
+        "dir": "Open Short",
+        "startPosition": "-0.0007",
+        "sz": "0.00023",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791085577504,
+        "dir": "Open Short",
+        "startPosition": "-0.00047",
+        "sz": "0.00023",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791084385837,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.00047",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791084296281,
+        "dir": "Close Long",
+        "startPosition": "0.00107",
+        "sz": "0.00107",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790967471914,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00107",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790966380164,
+        "dir": "Close Long",
+        "startPosition": "0.0024",
+        "sz": "0.0024",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790960441408,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.0024",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790960422773,
+        "dir": "Close Long",
+        "startPosition": "0.00007",
+        "sz": "0.00007",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790960422773,
+        "dir": "Close Long",
+        "startPosition": "0.00031",
+        "sz": "0.00024",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790960422773,
+        "dir": "Close Long",
+        "startPosition": "0.00055",
+        "sz": "0.00024",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790960422773,
+        "dir": "Close Long",
+        "startPosition": "0.00104",
+        "sz": "0.00049",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790960422773,
+        "dir": "Close Long",
+        "startPosition": "0.00153",
+        "sz": "0.00049",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790802200781,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00153",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790750733643,
+        "dir": "Close Long",
+        "startPosition": "0.00187",
+        "sz": "0.00187",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790645034679,
+        "dir": "Open Long",
+        "startPosition": "0.0014",
+        "sz": "0.00047",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790600464045,
+        "dir": "Open Long",
+        "startPosition": "0.00077",
+        "sz": "0.00063",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790600464045,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00077",
+        "side": "B"
+      },
+      {
+        "coin": "kPEPE",
+        "time": 1790563677465,
+        "dir": "Close Long",
+        "startPosition": "2542.0",
+        "sz": "2542.0",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790560860735,
+        "dir": "Close Long",
+        "startPosition": "0.00238",
+        "sz": "0.00238",
+        "side": "A"
+      },
+      {
+        "coin": "kPEPE",
+        "time": 1790488523207,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "2542.0",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790487963285,
+        "dir": "Open Long",
+        "startPosition": "0.00022",
+        "sz": "0.00216",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790487963285,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00022",
+        "side": "B"
+      }
+    ],
+    "userNonFundingLedgerUpdates:0xffffffffffffffffffffffffffffffffffff0001": [
+      {
+        "time": 1790487957328,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee1",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "5.06",
+          "usdcValue": "5.06"
+        }
+      },
+      {
+        "time": 1790488519665,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee2",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "1.096135",
+          "usdcValue": "1.096135"
+        }
+      },
+      {
+        "time": 1790644990384,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "1.021341",
+          "usdcValue": "1.021341"
+        }
+      },
+      {
+        "time": 1791340567738,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "0.70311",
+          "usdcValue": "0.70311"
+        }
+      },
+      {
+        "time": 1791341081523,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee5",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "3.754016",
+          "usdcValue": "3.754016"
+        }
+      },
+      {
+        "time": 1791341115840,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee6",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "1.487655",
+          "usdcValue": "1.487655"
+        }
+      },
+      {
+        "time": 1791342176802,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee7",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "0.305582",
+          "usdcValue": "0.305582"
+        }
+      },
+      {
+        "time": 1791691718454,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee8",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "3.0",
+          "usdcValue": "3.0"
+        }
+      },
+      {
+        "time": 1791693666680,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee9",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "0.979267",
+          "usdcValue": "0.979267"
+        }
+      },
+      {
+        "time": 1791694951517,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeea",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "2.079213",
+          "usdcValue": "2.079213"
+        }
+      },
+      {
+        "time": 1792029147757,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeb",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "2.658004",
+          "usdcValue": "2.658004"
+        }
+      },
+      {
+        "time": 1792030355776,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "1.0",
+          "usdcValue": "1.0"
+        }
+      },
+      {
+        "time": 1792030372920,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "2.001417",
+          "usdcValue": "2.001417"
+        }
+      },
+      {
+        "time": 1792030814463,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0004",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0001",
+          "token": "USDC",
+          "amount": "0.396299",
+          "usdcValue": "0.396299"
+        }
+      }
+    ],
+    "clearinghouseState:0xffffffffffffffffffffffffffffffffffff0002": {
+      "assetPositions": [
+        {
+          "position": {
+            "coin": "BTC",
+            "szi": "-0.04038",
+            "positionValue": "3292.157172",
+            "marginUsed": "327.650232",
+            "leverage": {
+              "type": "isolated",
+              "value": 10,
+              "rawUsd": "3619.807404"
+            }
+          }
+        }
+      ]
+    },
+    "userFills:0xffffffffffffffffffffffffffffffffffff0002": [
+      {
+        "coin": "BTC",
+        "time": 1792362532127,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.04038",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792358175209,
+        "dir": "Close Short",
+        "startPosition": "-0.03858",
+        "sz": "0.03858",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792358175209,
+        "dir": "Close Short",
+        "startPosition": "-0.04073",
+        "sz": "0.00215",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792340979375,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.04073",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792340715848,
+        "dir": "Close Short",
+        "startPosition": "-12064.0",
+        "sz": "12064.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792340715848,
+        "dir": "Close Short",
+        "startPosition": "-22184.0",
+        "sz": "10120.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792340715848,
+        "dir": "Close Short",
+        "startPosition": "-24751.0",
+        "sz": "2567.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792340715848,
+        "dir": "Close Short",
+        "startPosition": "-27121.0",
+        "sz": "2370.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792337913079,
+        "dir": "Open Short",
+        "startPosition": "-24253.0",
+        "sz": "2868.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792337913079,
+        "dir": "Open Short",
+        "startPosition": "-15908.0",
+        "sz": "8345.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792337913079,
+        "dir": "Open Short",
+        "startPosition": "-12856.0",
+        "sz": "3052.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792337913079,
+        "dir": "Open Short",
+        "startPosition": "-6104.0",
+        "sz": "6752.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792337913079,
+        "dir": "Open Short",
+        "startPosition": "-3052.0",
+        "sz": "3052.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792337913079,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3052.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-260.0",
+        "sz": "260.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-1832.0",
+        "sz": "1572.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-3620.0",
+        "sz": "1788.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-5874.0",
+        "sz": "2254.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-8128.0",
+        "sz": "2254.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-10382.0",
+        "sz": "2254.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-12636.0",
+        "sz": "2254.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-17609.0",
+        "sz": "4973.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-19863.0",
+        "sz": "2254.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-22117.0",
+        "sz": "2254.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792326290872,
+        "dir": "Close Short",
+        "startPosition": "-23812.0",
+        "sz": "1695.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792310604414,
+        "dir": "Open Short",
+        "startPosition": "-18084.0",
+        "sz": "5728.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792310604414,
+        "dir": "Open Short",
+        "startPosition": "-14102.0",
+        "sz": "3982.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792310604414,
+        "dir": "Open Short",
+        "startPosition": "-10120.0",
+        "sz": "3982.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792310604414,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "10120.0",
+        "side": "A"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792302344207,
+        "dir": "Close Short",
+        "startPosition": "-24800.0",
+        "sz": "24800.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792302344207,
+        "dir": "Close Short",
+        "startPosition": "-25800.0",
+        "sz": "1000.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792302344207,
+        "dir": "Close Short",
+        "startPosition": "-31201.0",
+        "sz": "5401.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792302344207,
+        "dir": "Close Short",
+        "startPosition": "-34369.0",
+        "sz": "3168.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792302344207,
+        "dir": "Close Short",
+        "startPosition": "-35108.0",
+        "sz": "739.0",
+        "side": "B"
+      },
+      {
+        "coin": "SAND",
+        "time": 1792256299744,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "35108.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792253640158,
+        "dir": "Close Short",
+        "startPosition": "-417770.0",
+        "sz": "417770.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792253640158,
+        "dir": "Close Short",
+        "startPosition": "-688360.0",
+        "sz": "270590.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792253640158,
+        "dir": "Close Short",
+        "startPosition": "-707553.0",
+        "sz": "19193.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792253640158,
+        "dir": "Close Short",
+        "startPosition": "-968930.0",
+        "sz": "261377.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792253640158,
+        "dir": "Close Short",
+        "startPosition": "-971356.0",
+        "sz": "2426.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792253640158,
+        "dir": "Close Short",
+        "startPosition": "-1060540.0",
+        "sz": "89184.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252994510,
+        "dir": "Open Short",
+        "startPosition": "-454752.0",
+        "sz": "605788.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252994510,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "454752.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252985631,
+        "dir": "Close Long",
+        "startPosition": "667755.0",
+        "sz": "667755.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252985631,
+        "dir": "Close Long",
+        "startPosition": "1122714.0",
+        "sz": "454959.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252830846,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "1122714.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252816766,
+        "dir": "Close Short",
+        "startPosition": "-1009226.0",
+        "sz": "1009226.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252816766,
+        "dir": "Close Short",
+        "startPosition": "-1122399.0",
+        "sz": "113173.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-1119607.0",
+        "sz": "2792.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-938898.0",
+        "sz": "180709.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-706876.0",
+        "sz": "232022.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-255103.0",
+        "sz": "451773.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-252618.0",
+        "sz": "2485.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-230035.0",
+        "sz": "22583.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-224390.0",
+        "sz": "5645.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-140831.0",
+        "sz": "83559.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "-112917.0",
+        "sz": "27914.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252045847,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "112917.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252028305,
+        "dir": "Close Long",
+        "startPosition": "156281.0",
+        "sz": "156281.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252028305,
+        "dir": "Close Long",
+        "startPosition": "176281.0",
+        "sz": "20000.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252028305,
+        "dir": "Close Long",
+        "startPosition": "198836.0",
+        "sz": "22555.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252028305,
+        "dir": "Close Long",
+        "startPosition": "226174.0",
+        "sz": "27338.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252028305,
+        "dir": "Close Long",
+        "startPosition": "601578.0",
+        "sz": "375404.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792252028305,
+        "dir": "Close Long",
+        "startPosition": "604060.0",
+        "sz": "2482.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792242191238,
+        "dir": "Open Long",
+        "startPosition": "408145.0",
+        "sz": "195915.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792242191238,
+        "dir": "Open Long",
+        "startPosition": "296264.0",
+        "sz": "111881.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239965270,
+        "dir": "Open Long",
+        "startPosition": "256314.0",
+        "sz": "39950.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239965270,
+        "dir": "Open Long",
+        "startPosition": "3314.0",
+        "sz": "253000.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239965270,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "3314.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239765869,
+        "dir": "Close Short",
+        "startPosition": "-317267.0",
+        "sz": "317267.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239765869,
+        "dir": "Close Short",
+        "startPosition": "-461263.0",
+        "sz": "143996.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239765869,
+        "dir": "Close Short",
+        "startPosition": "-494493.0",
+        "sz": "33230.0",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1792239577581,
+        "dir": "Close Long",
+        "startPosition": "445.5",
+        "sz": "445.5",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1792239577581,
+        "dir": "Close Long",
+        "startPosition": "1164.6",
+        "sz": "719.1",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1792239577581,
+        "dir": "Close Long",
+        "startPosition": "6798.4",
+        "sz": "5633.8",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-355890.0",
+        "sz": "138603.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-235664.0",
+        "sz": "120226.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-213626.0",
+        "sz": "22038.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-202626.0",
+        "sz": "11000.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-170565.0",
+        "sz": "32061.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-83278.0",
+        "sz": "87287.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "-1727.0",
+        "sz": "81551.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1792239214262,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "1727.0",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1792185432178,
+        "dir": "Open Long",
+        "startPosition": "4878.5",
+        "sz": "1919.9",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1792185432178,
+        "dir": "Open Long",
+        "startPosition": "2439.2",
+        "sz": "2439.3",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1792185432178,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "2439.2",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792145509152,
+        "dir": "Close Short",
+        "startPosition": "-0.06578",
+        "sz": "0.06578",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792144523777,
+        "dir": "Open Short",
+        "startPosition": "-0.02183",
+        "sz": "0.04395",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792144523777,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.02183",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792075565909,
+        "dir": "Close Long",
+        "startPosition": "0.06313",
+        "sz": "0.06313",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792075565909,
+        "dir": "Close Long",
+        "startPosition": "0.06338",
+        "sz": "0.00025",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792075565909,
+        "dir": "Close Long",
+        "startPosition": "0.06363",
+        "sz": "0.00025",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792075565909,
+        "dir": "Close Long",
+        "startPosition": "0.0638",
+        "sz": "0.00017",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792074804887,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.0638",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791987287730,
+        "dir": "Close Short",
+        "startPosition": "-0.03082",
+        "sz": "0.03082",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791896882660,
+        "dir": "Open Short",
+        "startPosition": "-0.02969",
+        "sz": "0.00113",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791895499871,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.02969",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791866122025,
+        "dir": "Close Short",
+        "startPosition": "-1643.0",
+        "sz": "1643.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791866122025,
+        "dir": "Close Short",
+        "startPosition": "-24765.0",
+        "sz": "23122.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791866122025,
+        "dir": "Close Short",
+        "startPosition": "-97993.0",
+        "sz": "73228.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791830912574,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "97993.0",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791734401438,
+        "dir": "Close Long",
+        "startPosition": "3759.9",
+        "sz": "3759.9",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791734401438,
+        "dir": "Close Long",
+        "startPosition": "10038.6",
+        "sz": "6278.7",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791734401438,
+        "dir": "Close Long",
+        "startPosition": "16317.3",
+        "sz": "6278.7",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727731701,
+        "dir": "Open Long",
+        "startPosition": "14005.7",
+        "sz": "2311.6",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727731701,
+        "dir": "Open Long",
+        "startPosition": "9936.9",
+        "sz": "4068.8",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727731701,
+        "dir": "Open Long",
+        "startPosition": "4968.7",
+        "sz": "4968.2",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727731701,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "4968.7",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727708769,
+        "dir": "Close Short",
+        "startPosition": "-1508.6",
+        "sz": "1508.6",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727708769,
+        "dir": "Close Short",
+        "startPosition": "-5577.4",
+        "sz": "4068.8",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727708769,
+        "dir": "Close Short",
+        "startPosition": "-9646.2",
+        "sz": "4068.8",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727708769,
+        "dir": "Close Short",
+        "startPosition": "-13715.0",
+        "sz": "4068.8",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791727708769,
+        "dir": "Close Short",
+        "startPosition": "-17783.8",
+        "sz": "4068.8",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-17300.4",
+        "sz": "483.4",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-12754.4",
+        "sz": "4546.0",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-11803.9",
+        "sz": "950.5",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-10853.4",
+        "sz": "950.5",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-7443.9",
+        "sz": "3409.5",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-6493.4",
+        "sz": "950.5",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-2861.7",
+        "sz": "3631.7",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-1911.1",
+        "sz": "950.6",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "-960.5",
+        "sz": "950.6",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724945088,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "960.5",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791724927581,
+        "dir": "Close Long",
+        "startPosition": "4313.4",
+        "sz": "4313.4",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791720136109,
+        "dir": "Open Long",
+        "startPosition": "3711.0",
+        "sz": "602.4",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791720136109,
+        "dir": "Open Long",
+        "startPosition": "2726.5",
+        "sz": "984.5",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791720136109,
+        "dir": "Open Long",
+        "startPosition": "1969.0",
+        "sz": "757.5",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791720136109,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "1969.0",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791720118095,
+        "dir": "Close Short",
+        "startPosition": "-4516.1",
+        "sz": "4516.1",
+        "side": "B"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791719296984,
+        "dir": "Open Short",
+        "startPosition": "-3326.9",
+        "sz": "1189.2",
+        "side": "A"
+      },
+      {
+        "coin": "STRK",
+        "time": 1791719296984,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3326.9",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791706351558,
+        "dir": "Close Short",
+        "startPosition": "-328.0",
+        "sz": "328.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791706351558,
+        "dir": "Close Short",
+        "startPosition": "-373.0",
+        "sz": "45.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791689870636,
+        "dir": "Open Short",
+        "startPosition": "-307.0",
+        "sz": "66.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791689870636,
+        "dir": "Open Short",
+        "startPosition": "-234.0",
+        "sz": "73.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791689870636,
+        "dir": "Open Short",
+        "startPosition": "-166.0",
+        "sz": "68.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791689870636,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "166.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791641197247,
+        "dir": "Close Short",
+        "startPosition": "-278.0",
+        "sz": "278.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791641197247,
+        "dir": "Close Short",
+        "startPosition": "-1463.0",
+        "sz": "1185.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-1237.0",
+        "sz": "226.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-1173.0",
+        "sz": "64.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-973.0",
+        "sz": "200.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-773.0",
+        "sz": "200.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-730.0",
+        "sz": "43.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-387.0",
+        "sz": "343.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-323.0",
+        "sz": "64.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "-280.0",
+        "sz": "43.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791638530472,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "280.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791635107425,
+        "dir": "Close Short",
+        "startPosition": "-700.0",
+        "sz": "700.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791606435263,
+        "dir": "Open Short",
+        "startPosition": "-357.0",
+        "sz": "343.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791571545362,
+        "dir": "Open Short",
+        "startPosition": "-233.0",
+        "sz": "124.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791571545362,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "233.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791560904440,
+        "dir": "Close Short",
+        "startPosition": "-734.0",
+        "sz": "734.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791560904440,
+        "dir": "Close Short",
+        "startPosition": "-798.0",
+        "sz": "64.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791560904440,
+        "dir": "Close Short",
+        "startPosition": "-1279.0",
+        "sz": "481.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791560904440,
+        "dir": "Close Short",
+        "startPosition": "-1375.0",
+        "sz": "96.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791553113292,
+        "dir": "Open Short",
+        "startPosition": "-1292.0",
+        "sz": "83.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791553113292,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "1292.0",
+        "side": "A"
+      },
+      {
+        "coin": "MET",
+        "time": 1791467524985,
+        "dir": "Close Short",
+        "startPosition": "-729.0",
+        "sz": "729.0",
+        "side": "B"
+      },
+      {
+        "coin": "MET",
+        "time": 1791467524985,
+        "dir": "Close Short",
+        "startPosition": "-892.0",
+        "sz": "163.0",
+        "side": "B"
+      },
+      {
+        "coin": "MET",
+        "time": 1791466190826,
+        "dir": "Open Short",
+        "startPosition": "-875.0",
+        "sz": "17.0",
+        "side": "A"
+      },
+      {
+        "coin": "MET",
+        "time": 1791466190826,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "875.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791381050375,
+        "dir": "Close Short",
+        "startPosition": "-123982.0",
+        "sz": "123982.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791377814796,
+        "dir": "Open Short",
+        "startPosition": "-122572.0",
+        "sz": "1410.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791377814796,
+        "dir": "Open Short",
+        "startPosition": "-59271.0",
+        "sz": "63301.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791377814796,
+        "dir": "Open Short",
+        "startPosition": "-51364.0",
+        "sz": "7907.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791377814796,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "51364.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791343158493,
+        "dir": "Close Short",
+        "startPosition": "-429.0",
+        "sz": "429.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791343158493,
+        "dir": "Close Short",
+        "startPosition": "-976.0",
+        "sz": "547.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791343158493,
+        "dir": "Close Short",
+        "startPosition": "-1010.0",
+        "sz": "34.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791343158493,
+        "dir": "Close Short",
+        "startPosition": "-1043.0",
+        "sz": "33.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791343158493,
+        "dir": "Close Short",
+        "startPosition": "-1059.0",
+        "sz": "16.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791239849132,
+        "dir": "Open Short",
+        "startPosition": "-1040.0",
+        "sz": "19.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791191837529,
+        "dir": "Open Short",
+        "startPosition": "-1032.0",
+        "sz": "8.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791191837529,
+        "dir": "Open Short",
+        "startPosition": "-899.0",
+        "sz": "133.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791191837529,
+        "dir": "Open Short",
+        "startPosition": "-163.0",
+        "sz": "736.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791191837529,
+        "dir": "Open Short",
+        "startPosition": "-65.0",
+        "sz": "98.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1791191837529,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "65.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791191805799,
+        "dir": "Close Short",
+        "startPosition": "-68598.0",
+        "sz": "68598.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791191805799,
+        "dir": "Close Short",
+        "startPosition": "-131402.0",
+        "sz": "62804.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791191805799,
+        "dir": "Close Short",
+        "startPosition": "-221670.0",
+        "sz": "90268.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791191805799,
+        "dir": "Close Short",
+        "startPosition": "-248905.0",
+        "sz": "27235.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791145628412,
+        "dir": "Open Short",
+        "startPosition": "-241981.0",
+        "sz": "6924.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791145628412,
+        "dir": "Open Short",
+        "startPosition": "-150503.0",
+        "sz": "91478.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791145628412,
+        "dir": "Open Short",
+        "startPosition": "-87866.0",
+        "sz": "62637.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791145628412,
+        "dir": "Open Short",
+        "startPosition": "-62627.0",
+        "sz": "25239.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791145628412,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "62627.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791131627892,
+        "dir": "Close Short",
+        "startPosition": "-144870.0",
+        "sz": "144870.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1791045140960,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "144870.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790987296131,
+        "dir": "Close Short",
+        "startPosition": "-41309.0",
+        "sz": "41309.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790987296131,
+        "dir": "Close Short",
+        "startPosition": "-132625.0",
+        "sz": "91316.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790987296131,
+        "dir": "Close Short",
+        "startPosition": "-134988.0",
+        "sz": "2363.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790699228777,
+        "dir": "Open Short",
+        "startPosition": "-121358.0",
+        "sz": "13630.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790699228777,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "121358.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-276.0",
+        "sz": "276.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-4851.0",
+        "sz": "4575.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-6302.0",
+        "sz": "1451.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-9703.0",
+        "sz": "3401.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-11163.0",
+        "sz": "1460.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-12653.0",
+        "sz": "1490.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790667492892,
+        "dir": "Close Short",
+        "startPosition": "-12979.0",
+        "sz": "326.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790629541053,
+        "dir": "Open Short",
+        "startPosition": "-9745.0",
+        "sz": "3234.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790629541053,
+        "dir": "Open Short",
+        "startPosition": "-6496.0",
+        "sz": "3249.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790629541053,
+        "dir": "Open Short",
+        "startPosition": "-3248.0",
+        "sz": "3248.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790629541053,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3248.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790628456475,
+        "dir": "Close Short",
+        "startPosition": "-997.0",
+        "sz": "997.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790628456475,
+        "dir": "Close Short",
+        "startPosition": "-3430.0",
+        "sz": "2433.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790628456475,
+        "dir": "Close Short",
+        "startPosition": "-6674.0",
+        "sz": "3244.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790628456475,
+        "dir": "Close Short",
+        "startPosition": "-10292.0",
+        "sz": "3618.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790617331469,
+        "dir": "Open Short",
+        "startPosition": "-6150.0",
+        "sz": "4142.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790617331469,
+        "dir": "Open Short",
+        "startPosition": "-3822.0",
+        "sz": "2328.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790617331469,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3822.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790616754849,
+        "dir": "Close Short",
+        "startPosition": "-10047.0",
+        "sz": "10047.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790616754849,
+        "dir": "Close Short",
+        "startPosition": "-13119.0",
+        "sz": "3072.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "-7680.0",
+        "sz": "5439.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "-7675.0",
+        "sz": "5.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "-5675.0",
+        "sz": "2000.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "-4285.0",
+        "sz": "1390.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "-3046.0",
+        "sz": "1239.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "-796.0",
+        "sz": "2250.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611779350,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "796.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-1134.0",
+        "sz": "1134.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-1562.0",
+        "sz": "428.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-2175.0",
+        "sz": "613.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-9150.0",
+        "sz": "6975.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-9748.0",
+        "sz": "598.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-10404.0",
+        "sz": "656.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-11060.0",
+        "sz": "656.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-11716.0",
+        "sz": "656.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-12372.0",
+        "sz": "656.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611530575,
+        "dir": "Close Short",
+        "startPosition": "-14405.0",
+        "sz": "2033.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611112759,
+        "dir": "Open Short",
+        "startPosition": "-12483.0",
+        "sz": "1922.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611112759,
+        "dir": "Open Short",
+        "startPosition": "-9536.0",
+        "sz": "2947.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611112759,
+        "dir": "Open Short",
+        "startPosition": "-7421.0",
+        "sz": "2115.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611112759,
+        "dir": "Open Short",
+        "startPosition": "-5258.0",
+        "sz": "2163.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611112759,
+        "dir": "Open Short",
+        "startPosition": "-2076.0",
+        "sz": "3182.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790611112759,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "2076.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-831.0",
+        "sz": "831.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-4011.0",
+        "sz": "3180.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-6398.0",
+        "sz": "2387.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-8573.0",
+        "sz": "2175.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-12832.0",
+        "sz": "4259.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-15294.0",
+        "sz": "2462.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610803995,
+        "dir": "Close Short",
+        "startPosition": "-16089.0",
+        "sz": "795.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610708579,
+        "dir": "Open Short",
+        "startPosition": "-14993.0",
+        "sz": "1096.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610708579,
+        "dir": "Open Short",
+        "startPosition": "-12631.0",
+        "sz": "2362.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610708579,
+        "dir": "Open Short",
+        "startPosition": "-5451.0",
+        "sz": "7180.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610708579,
+        "dir": "Open Short",
+        "startPosition": "-2216.0",
+        "sz": "3235.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610708579,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "2216.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610606830,
+        "dir": "Close Short",
+        "startPosition": "-5334.0",
+        "sz": "5334.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610606830,
+        "dir": "Close Short",
+        "startPosition": "-7705.0",
+        "sz": "2371.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610606830,
+        "dir": "Close Short",
+        "startPosition": "-10076.0",
+        "sz": "2371.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610606830,
+        "dir": "Close Short",
+        "startPosition": "-12375.0",
+        "sz": "2299.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610606830,
+        "dir": "Close Short",
+        "startPosition": "-14746.0",
+        "sz": "2371.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610606830,
+        "dir": "Close Short",
+        "startPosition": "-17361.0",
+        "sz": "2615.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610314729,
+        "dir": "Open Short",
+        "startPosition": "-15234.0",
+        "sz": "2127.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610314729,
+        "dir": "Open Short",
+        "startPosition": "-3581.0",
+        "sz": "11653.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610314729,
+        "dir": "Open Short",
+        "startPosition": "-3249.0",
+        "sz": "332.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610314729,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3249.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-3522.0",
+        "sz": "3522.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-5771.0",
+        "sz": "2249.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-8020.0",
+        "sz": "2249.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-11271.0",
+        "sz": "3251.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-13683.0",
+        "sz": "2412.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-15767.0",
+        "sz": "2084.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790610105416,
+        "dir": "Close Short",
+        "startPosition": "-19019.0",
+        "sz": "3252.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790609977729,
+        "dir": "Open Short",
+        "startPosition": "-9061.0",
+        "sz": "9958.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790609977729,
+        "dir": "Open Short",
+        "startPosition": "-6590.0",
+        "sz": "2471.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790609977729,
+        "dir": "Open Short",
+        "startPosition": "-3295.0",
+        "sz": "3295.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790609977729,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3295.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790609754359,
+        "dir": "Close Short",
+        "startPosition": "-5950.0",
+        "sz": "5950.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790609754359,
+        "dir": "Close Short",
+        "startPosition": "-8436.0",
+        "sz": "2486.0",
+        "side": "B"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790608254588,
+        "dir": "Open Short",
+        "startPosition": "-4680.0",
+        "sz": "3756.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790608254588,
+        "dir": "Open Short",
+        "startPosition": "-3420.0",
+        "sz": "1260.0",
+        "side": "A"
+      },
+      {
+        "coin": "HBAR",
+        "time": 1790608254588,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3420.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790605315415,
+        "dir": "Close Short",
+        "startPosition": "-60037.0",
+        "sz": "60037.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790605315415,
+        "dir": "Close Short",
+        "startPosition": "-436895.0",
+        "sz": "376858.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790604729414,
+        "dir": "Open Short",
+        "startPosition": "-259897.0",
+        "sz": "176998.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790604729414,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "259897.0",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1790564628789,
+        "dir": "Close Short",
+        "startPosition": "-439.0",
+        "sz": "439.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1790564628789,
+        "dir": "Close Short",
+        "startPosition": "-968.0",
+        "sz": "529.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1790564628789,
+        "dir": "Close Short",
+        "startPosition": "-1308.0",
+        "sz": "340.0",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1790563081810,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "1308.0",
+        "side": "A"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-71.9",
+        "sz": "71.9",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-75.5",
+        "sz": "3.6",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-148.1",
+        "sz": "72.6",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-186.0",
+        "sz": "37.9",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-218.2",
+        "sz": "32.2",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-345.4",
+        "sz": "127.2",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546571711,
+        "dir": "Close Short",
+        "startPosition": "-373.0",
+        "sz": "27.6",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790546356334,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "373.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790546288687,
+        "dir": "Close Short",
+        "startPosition": "-59926.0",
+        "sz": "59926.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790546288687,
+        "dir": "Close Short",
+        "startPosition": "-157792.0",
+        "sz": "97866.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790546288687,
+        "dir": "Close Short",
+        "startPosition": "-255658.0",
+        "sz": "97866.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790546288687,
+        "dir": "Close Short",
+        "startPosition": "-382158.0",
+        "sz": "126500.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790546109574,
+        "dir": "Open Short",
+        "startPosition": "-220083.0",
+        "sz": "162075.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790546109574,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "220083.0",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790540976040,
+        "dir": "Close Short",
+        "startPosition": "-84.8",
+        "sz": "84.8",
+        "side": "B"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790540976040,
+        "dir": "Close Short",
+        "startPosition": "-893.1",
+        "sz": "808.3",
+        "side": "B"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790540976040,
+        "dir": "Close Short",
+        "startPosition": "-971.9",
+        "sz": "78.8",
+        "side": "B"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790540976040,
+        "dir": "Close Short",
+        "startPosition": "-1075.0",
+        "sz": "103.1",
+        "side": "B"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-990.8",
+        "sz": "84.2",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-952.1",
+        "sz": "38.7",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-914.4",
+        "sz": "37.7",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-798.0",
+        "sz": "116.4",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-655.5",
+        "sz": "142.5",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-437.0",
+        "sz": "218.5",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "-218.5",
+        "sz": "218.5",
+        "side": "A"
+      },
+      {
+        "coin": "ZRO",
+        "time": 1790539034901,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "218.5",
+        "side": "A"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790539019359,
+        "dir": "Close Short",
+        "startPosition": "-50.6",
+        "sz": "50.6",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790539019359,
+        "dir": "Close Short",
+        "startPosition": "-114.7",
+        "sz": "64.1",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790539019359,
+        "dir": "Close Short",
+        "startPosition": "-195.9",
+        "sz": "81.2",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790539019359,
+        "dir": "Close Short",
+        "startPosition": "-261.3",
+        "sz": "65.4",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790539019359,
+        "dir": "Close Short",
+        "startPosition": "-326.7",
+        "sz": "65.4",
+        "side": "B"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790538255717,
+        "dir": "Open Short",
+        "startPosition": "-260.7",
+        "sz": "66.0",
+        "side": "A"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790538255717,
+        "dir": "Open Short",
+        "startPosition": "-175.2",
+        "sz": "85.5",
+        "side": "A"
+      },
+      {
+        "coin": "NEAR",
+        "time": 1790538255717,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "175.2",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790538216577,
+        "dir": "Close Short",
+        "startPosition": "-332273.0",
+        "sz": "332273.0",
+        "side": "B"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790532683807,
+        "dir": "Open Short",
+        "startPosition": "-273229.0",
+        "sz": "59044.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790532683807,
+        "dir": "Open Short",
+        "startPosition": "-80080.0",
+        "sz": "193149.0",
+        "side": "A"
+      },
+      {
+        "coin": "PUMP",
+        "time": 1790532683807,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "80080.0",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790532667859,
+        "dir": "Close Short",
+        "startPosition": "-0.83",
+        "sz": "0.83",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790532667859,
+        "dir": "Close Short",
+        "startPosition": "-1.07",
+        "sz": "0.24",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790532667859,
+        "dir": "Close Short",
+        "startPosition": "-1.28",
+        "sz": "0.21",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790532667859,
+        "dir": "Close Short",
+        "startPosition": "-1.48",
+        "sz": "0.2",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790532667859,
+        "dir": "Close Short",
+        "startPosition": "-1.49",
+        "sz": "0.01",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790516571631,
+        "dir": "Open Short",
+        "startPosition": "-1.34",
+        "sz": "0.15",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790516571631,
+        "dir": "Open Short",
+        "startPosition": "-1.04",
+        "sz": "0.3",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790516571631,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "1.04",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-18.7",
+        "sz": "18.7",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-349.5",
+        "sz": "330.8",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-828.3",
+        "sz": "478.8",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-866.9",
+        "sz": "38.6",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-905.5",
+        "sz": "38.6",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-944.1",
+        "sz": "38.6",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790486372830,
+        "dir": "Close Short",
+        "startPosition": "-2144.1",
+        "sz": "1200.0",
+        "side": "B"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-1999.1",
+        "sz": "145.0",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-1756.3",
+        "sz": "242.8",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-1522.7",
+        "sz": "233.6",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-1017.8",
+        "sz": "504.9",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-917.8",
+        "sz": "100.0",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-584.4",
+        "sz": "333.4",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-79.6",
+        "sz": "504.8",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "-37.8",
+        "sz": "41.8",
+        "side": "A"
+      },
+      {
+        "coin": "RUNE",
+        "time": 1790477291367,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "37.8",
+        "side": "A"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1790477266310,
+        "dir": "Close Short",
+        "startPosition": "-577.0",
+        "sz": "577.0",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790477261451,
+        "dir": "Close Short",
+        "startPosition": "-0.01465",
+        "sz": "0.01465",
+        "side": "B"
+      },
+      {
+        "coin": "GRAM",
+        "time": 1790475131493,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "577.0",
+        "side": "A"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790474847355,
+        "dir": "Close Short",
+        "startPosition": "-310.1",
+        "sz": "310.1",
+        "side": "B"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790474847355,
+        "dir": "Close Short",
+        "startPosition": "-593.6",
+        "sz": "283.5",
+        "side": "B"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790474847355,
+        "dir": "Close Short",
+        "startPosition": "-1524.3",
+        "sz": "930.7",
+        "side": "B"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790374678684,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "1524.3",
+        "side": "A"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790374603160,
+        "dir": "Close Short",
+        "startPosition": "-87.1",
+        "sz": "87.1",
+        "side": "B"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790374603160,
+        "dir": "Close Short",
+        "startPosition": "-116.6",
+        "sz": "29.5",
+        "side": "B"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790374603160,
+        "dir": "Close Short",
+        "startPosition": "-2216.0",
+        "sz": "2099.4",
+        "side": "B"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790371971869,
+        "dir": "Open Short",
+        "startPosition": "-1873.6",
+        "sz": "342.4",
+        "side": "A"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790371971869,
+        "dir": "Open Short",
+        "startPosition": "-1528.1",
+        "sz": "345.5",
+        "side": "A"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790371971869,
+        "dir": "Open Short",
+        "startPosition": "-345.5",
+        "sz": "1182.6",
+        "side": "A"
+      },
+      {
+        "coin": "SUI",
+        "time": 1790371971869,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "345.5",
+        "side": "A"
+      },
+      {
+        "coin": "kPEPE",
+        "time": 1790371953555,
+        "dir": "Close Short",
+        "startPosition": "-205722.0",
+        "sz": "205722.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-3085.0",
+        "sz": "3085.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-4085.0",
+        "sz": "1000.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-4585.0",
+        "sz": "500.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-5285.0",
+        "sz": "700.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-6497.0",
+        "sz": "1212.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-9497.0",
+        "sz": "3000.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790126573381,
+        "dir": "Close Short",
+        "startPosition": "-10186.0",
+        "sz": "689.0",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790089921112,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.01465",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790089907002,
+        "dir": "Close Long",
+        "startPosition": "0.01032",
+        "sz": "0.01032",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790089907002,
+        "dir": "Close Long",
+        "startPosition": "0.01132",
+        "sz": "0.001",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790089562254,
+        "dir": "Close Short",
+        "startPosition": "-0.44",
+        "sz": "0.44",
+        "side": "B"
+      },
+      {
+        "coin": "kPEPE",
+        "time": 1790077712796,
+        "dir": "Open Short",
+        "startPosition": "-98511.0",
+        "sz": "107211.0",
+        "side": "A"
+      },
+      {
+        "coin": "kPEPE",
+        "time": 1790077712796,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "98511.0",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790075669022,
+        "dir": "Open Short",
+        "startPosition": "-9644.0",
+        "sz": "542.0",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790075669022,
+        "dir": "Open Short",
+        "startPosition": "-3832.0",
+        "sz": "5812.0",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790075669022,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "3832.0",
+        "side": "A"
+      },
+      {
+        "coin": "SOL",
+        "time": 1790054405963,
+        "dir": "Close Long",
+        "startPosition": "1.73",
+        "sz": "1.73",
+        "side": "A"
+      },
+      {
+        "coin": "SOL",
+        "time": 1790054405963,
+        "dir": "Close Long",
+        "startPosition": "8.19",
+        "sz": "6.46",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790049806288,
+        "dir": "Close Short",
+        "startPosition": "-9657.0",
+        "sz": "9657.0",
+        "side": "B"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790032466110,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "9657.0",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790032403460,
+        "dir": "Close Long",
+        "startPosition": "1102.0",
+        "sz": "1102.0",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790032403460,
+        "dir": "Close Long",
+        "startPosition": "11179.0",
+        "sz": "10077.0",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790011357967,
+        "dir": "Open Short",
+        "startPosition": "-0.37",
+        "sz": "0.07",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790011357967,
+        "dir": "Open Short",
+        "startPosition": "-0.02",
+        "sz": "0.35",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790011357967,
+        "dir": "Open Short",
+        "startPosition": "0.0",
+        "sz": "0.02",
+        "side": "A"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790010989801,
+        "dir": "Close Long",
+        "startPosition": "0.64",
+        "sz": "0.64",
+        "side": "A"
+      },
+      {
+        "coin": "DOGE",
+        "time": 1790003532242,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "11179.0",
+        "side": "B"
+      },
+      {
+        "coin": "SOL",
+        "time": 1790003504305,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "8.19",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790003479633,
+        "dir": "Open Long",
+        "startPosition": "0.07",
+        "sz": "0.57",
+        "side": "B"
+      },
+      {
+        "coin": "ZEC",
+        "time": 1790003479633,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.07",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1790003445872,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.01132",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1789993277079,
+        "dir": "Close Long",
+        "startPosition": "0.00389",
+        "sz": "0.00389",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1789926684566,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00389",
+        "side": "B"
+      },
+      {
+        "coin": "UNI",
+        "time": 1789909318969,
+        "dir": "Close Long",
+        "startPosition": "7.8",
+        "sz": "7.8",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1789748052114,
+        "dir": "Close Long",
+        "startPosition": "0.00167",
+        "sz": "0.00167",
+        "side": "A"
+      },
+      {
+        "coin": "UNI",
+        "time": 1789748020601,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "7.8",
+        "side": "B"
+      },
+      {
+        "coin": "BTC",
+        "time": 1789489975221,
+        "dir": "Open Long",
+        "startPosition": "0.0",
+        "sz": "0.00167",
+        "side": "B"
+      }
+    ],
+    "userNonFundingLedgerUpdates:0xffffffffffffffffffffffffffffffffffff0002": [
+      {
+        "time": 1789489751427,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef",
+        "delta": {
+          "type": "deposit",
+          "usdc": "13.209363"
+        }
+      },
+      {
+        "time": 1789747921308,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee10",
+        "delta": {
+          "type": "deposit",
+          "usdc": "13.65666"
+        }
+      },
+      {
+        "time": 1790003359986,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee11",
+        "delta": {
+          "type": "deposit",
+          "usdc": "356.923121"
+        }
+      }
+    ],
+    "clearinghouseState:0xffffffffffffffffffffffffffffffffffff0003": {
+      "assetPositions": [
+        {
+          "position": {
+            "coin": "BTC",
+            "szi": "-1.04208",
+            "positionValue": "84960.157152",
+            "marginUsed": "2124.003928",
+            "leverage": {
+              "type": "cross",
+              "value": 40
+            }
+          }
+        }
+      ]
+    },
+    "userFills:0xffffffffffffffffffffffffffffffffffff0003": [
+      {
+        "coin": "BTC",
+        "time": 1792072374780,
+        "dir": "Open Short",
+        "startPosition": "-0.49652",
+        "sz": "0.01203",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072374645,
+        "dir": "Open Short",
+        "startPosition": "-0.48164",
+        "sz": "0.01488",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072374645,
+        "dir": "Open Short",
+        "startPosition": "-0.47214",
+        "sz": "0.0095",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072374439,
+        "dir": "Open Short",
+        "startPosition": "-0.45081",
+        "sz": "0.02133",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072374014,
+        "dir": "Open Short",
+        "startPosition": "-0.44998",
+        "sz": "0.00083",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072373881,
+        "dir": "Open Short",
+        "startPosition": "-0.44917",
+        "sz": "0.00081",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072373746,
+        "dir": "Open Short",
+        "startPosition": "-0.44904",
+        "sz": "0.00013",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072373683,
+        "dir": "Open Short",
+        "startPosition": "-0.4023",
+        "sz": "0.04674",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072373683,
+        "dir": "Open Short",
+        "startPosition": "-0.40214",
+        "sz": "0.00016",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1792072373545,
+        "dir": "Open Short",
+        "startPosition": "-0.36855",
+        "sz": "0.03359",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791983784689,
+        "dir": "Open Short",
+        "startPosition": "-0.09337",
+        "sz": "0.11224",
+        "side": "A"
+      },
+      {
+        "coin": "BTC",
+        "time": 1791983784689,
+        "dir": "Open Short",
+        "startPosition": "-0.04561",
+        "sz": "0.04776",
+        "side": "A"
+      }
+    ],
+    "userNonFundingLedgerUpdates:0xffffffffffffffffffffffffffffffffffff0003": [
+      {
+        "time": 1791927283347,
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee12",
+        "delta": {
+          "type": "send",
+          "user": "0xffffffffffffffffffffffffffffffffffff0005",
+          "destination": "0xffffffffffffffffffffffffffffffffffff0003",
+          "token": "USDC",
+          "amount": "4834.57",
+          "usdcValue": "4834.57"
+        }
+      }
+    ]
+  }
+}

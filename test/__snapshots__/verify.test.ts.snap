@@ -1,0 +1,47 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`verifyAccounts on recorded public data > scores the recorded accounts 1`] = `
+{
+  "evidence": {
+    "directTransfers": [],
+    "reused": [
+      "0xffffffffffffffffffffffffffffffffffff0001",
+      "0xffffffffffffffffffffffffffffffffffff0002",
+    ],
+    "sharedCounterparties": [],
+    "timing": {
+      "gapCv": null,
+      "jitter": "off",
+      "known": 2,
+      "spreadMs": null,
+    },
+    "unknownHistory": [
+      "0xffffffffffffffffffffffffffffffffffff0003",
+    ],
+  },
+  "factors": [
+    "slices.few",
+    "size.varied",
+    "leverage.varied",
+    "timing.none",
+    "accounts.reused",
+  ],
+  "input": {
+    "alertThreshold": 100000,
+    "freshAccounts": false,
+    "jitter": "off",
+    "leverages": [
+      41.50192236230584,
+      10.047779157379018,
+      40.000000015065886,
+    ],
+    "privateFunding": true,
+    "slices": [
+      57.07058,
+      3292.157172,
+      84960.157152,
+    ],
+  },
+  "score": 50,
+}
+`;
