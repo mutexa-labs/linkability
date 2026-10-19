@@ -61,7 +61,7 @@
     "@types/node": "^22.19.0",
     "prettier": "^3.9.8",
     "tsup": "^8.5.1",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "vitest": "^3.2.7"
   }
 }
